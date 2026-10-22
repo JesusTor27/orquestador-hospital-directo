@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 PACIENTES_URL = os.getenv('PACIENTES_URL', 'https://integrantes-hospital-pacientes-1.onrender.com').rstrip('/')
-LABORATORIO_URL = os.getenv('LABORATORIO_URL', 'https://integrantes-hospital-laboratorio.onrender.com/').rstrip('/')
+LABORATORIO_URL = os.getenv('LABORATORIO_URL', 'https://integrantes-hospital-laboratorio.onrender.com').rstrip('/')
 TIMEOUT = float(os.getenv('HTTP_TIMEOUT', '20'))
 
 
